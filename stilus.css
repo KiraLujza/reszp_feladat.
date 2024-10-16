@@ -1,0 +1,100 @@
+.tarol {
+    border: 1px solid  black;
+    padding: 2px;
+    
+}
+
+h1{
+    padding: 5px;
+    margin-left: 20px;
+}
+
+h2 {
+    border: 1px solid black;
+    padding: 3px;
+    margin: auto;
+    padding: 2px;
+}
+
+body{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 0%;
+}
+
+img{
+    width: 99%;
+    padding: 2px;
+    border: 1px solid black;
+
+}
+
+.kiskep{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    
+ 
+}
+
+.fejlec{
+    border: 1px solid black;
+    margin: auto;
+}
+
+.menu {
+    border: 1px solid black;
+    margin: auto;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+    padding: 2px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: red;
+    margin: auto;
+
+}
+
+.menu a:hover{
+    background-color: red;
+    color: white;
+
+}
+
+.nagykep {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+@media screen and (max-width: 650px) {
+
+    .kiskep{
+        grid-template-columns: 2fr 2fr;
+
+    }
+    .menu ul{
+        display: inline;
+        
+        
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+ .kiskep {
+        grid-template-columns: 1fr;
+    }
+
+  body{
+    width: 100%;
+  }  
+}
